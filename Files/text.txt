@@ -1,0 +1,43 @@
+replace first line with this
+ maybe a second line added here?/n
+with r+line whatadding a line at the end
+ really want a new line
+ 
+ 
+ >>> print(lines)
+
+>>> f.write("line what")
+9
+>>> f.flush()
+>>> f.tell()
+80
+>>> f.write("adding a line at the end")
+24
+>>> f.tell()
+104
+>>> f.read()
+''
+>>> f.write("\n really want a new line")                                                        
+24
+>>> f.flush()
+>>> f.tell()
+128
+>>> f.seek()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: seek() takes at least 1 argument (0 given)
+>>> f.seek(0)
+0
+>>> f.write("replace first line with this")
+28
+>>> f.flush()
+>>> f.write("\n maybe a second line added here?")
+33
+>>> f.flush()
+>>> f.write("/n")
+2
+>>> f.flush()
+>>> f.write("\n")
+1
+>>> f.flush()
+>>> 
