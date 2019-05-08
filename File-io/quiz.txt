@@ -1,0 +1,16 @@
+<<<<<<<<< saved version
+What's the capital of Sweden?
+Stockholm
+What's the capital of Denmark?
+Copenhagen
+What is the capital of Norway?
+Oslo
+Capital of Norway?
+Oslo
+Capital of Finland?
+Helsinki
+Capital of Russia?
+Moscow
+=========
+
+>>>>>>>>> local version
